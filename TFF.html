@@ -9,27 +9,18 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/grid.css">
 
-<!--
-	<link rel="stylesheet" href="css/normalize.css">
--->
-
 </head>
 
 <body>
 
-	<header>
+	<a href="index.html" id="navbar"><h1>mag<letter-spacing: 0.5rem;>gie</letter-spacing:> liu</h1></a>
 
-		<h1> mag<letter-spacing: 0.5rem;>gie</letter-spacing:> liu </h1>
-
-	</header>
-
-	<div class="fixed-bg fixed-bg-1"></div>
-
+	<div class="fixed-bg tff-bg"></div>
 
 	<div class="grid-row">
 		<div class="scrolling">
 
-			<h2>TRIBECA<br>FILM<br>FESTIVAL</h2>
+			<h2 class="tffName">TRIBECA<br>FILM<br>FESTIVAL</h2>
 			<p class="clientIntro">Tribeca Film Festival is a 12-day festival founded in 2002 by Robert De Niro, Jane Rosenthal, and Craig Hatkoff, in response to the 9/11 tragedy. Since its establishment, Tribeca Film Festival has evolved beyond just storytelling through film, into a multi-platform cultural event that includes immersive VR and games.</p>
 
 			<h3>PROPOSAL: TRIBECA EXPLORE</h3>
@@ -58,11 +49,11 @@
 					<div class="grid-col-2of12">
 						<h5>My Roles</h5>
 						<div class="projectIntro plist">
-							Experience Design<br>
+							User Experience<br>
 							Research<br>
 							Prototyping<br>
 							Interface Design<br>
-							Interaction Design
+							User Interaction
 						</div>
 					</div>
 
@@ -82,7 +73,7 @@
 			<h4>Business Problem</h4>
 			<p class="content">From its conception, Tribeca Film Festival was only intended as a one-time event to heal the loss of vitality in the Tribeca Neighbourhood by bringing people together. However, it gained popularity but resulted in a lack of long-term vision and consistent identity that would differentiate them from other film festivals.<!--Although Tribeca Film Festival has been a frontrunner in innovative storytelling especially through non-film media and nonlinear storytelling, more established film festivals are also successfully implementing non-film projects into their programming. Simply chasing new technology and media projects is not enough to provide a unique differentiation point for Tribeca Film Festival.--></p>
 
-			<div class="businessQuote"><i>“After more than 15 years, Tribeca <mark> still seeks a consistent identity </mark> within the larger film festival ecosystem. <...> Tribeca’s timing between Sundance and Cannes limits its ability to land high-quality world premieres.”</i> - Indiewire, 2017</div>
+			<div class="businessQuote"><i>“After more than 15 years, Tribeca <mark class="tffMark"> still seeks a consistent identity </mark> within the larger film festival ecosystem. <...> Tribeca’s timing between Sundance and Cannes limits its ability to land high-quality world premieres.”</i> – Indiewire, 2017</div>
 
 			<div class="line"></div>
 			<h4>Opportunity</h4>
@@ -125,6 +116,9 @@
 
 			<div class="line"></div>
 			<h4>Our Solution</h4><br>
+			<p class="content">Once we decided on the flow of the interactions, I was tasked with creating the digital wireframes and microinteractions using Sketch and Principle. </p>
+
+
 			<!-- <p class="content">Tribeca Explore is an extension</p> -->
 
 
@@ -184,67 +178,89 @@
 					<div class="mockups">
 						<img src="img/home-search.gif">
 						<div class="solutionContent">
-							<p>Tribeca Explroe can be accessed through the <br> EXPLORE tab on the main page</p>
-							<p>Film goers can explore around their current <br> location, or a specific venue</p>
-						</div>
-					</div>
-
-					<div class="mockups">
-						<img src="img/search.gif">
-						<div class="solutionContent">
-							<p>We implemented TFF's current film filters and <br> terminology to categorize businesses around <br> the neighbourhood</p>
+							<p>Tribeca Explore can be accessed through the EXPLORE <br> 
+								tab on the main page, via a triangle (tribeca shaped) <br>inside a pin point icon.</p>
+								<p>Film goers can explore around their current <br> 
+								location, or a specific venue.</p>
+							</div>
 						</div>
 
-					</div>
+						<div class="mockups">
+							<img src="img/search.gif">
+							<div class="solutionContent">
+								<p>We wanted to seamlessly bridge film goers from <br> 
+									TFF's existing website to our mobile EXPLORE <br> 
+									feature by using some of their icon filters <br>
+									and terminology in conjuction with our own, <br>
+									since they would already be familiar with them <br>
+								while browsing through films on their website.</p>
+							</div>
 
-					<div class="mockups">
-						<img src="img/store-share.gif">
-						<div class="solutionContent">
-							<p>Film goers can browse through a brief history of <br> each business within the Tribeca community</p>
-							<p>They can easily share the location with other film <br >goers via the share button</p>
 						</div>
 
+						<div class="mockups">
+							<img src="img/store-share.gif">
+							<div class="solutionContent">
+								<p>Film goers can browse through the rich history <br>
+								of each business within the Tribeca community.</p>
+								<p>They can easily share the location with other film <br>
+								goers via the share button.</p>
+							</div>
+
+						</div>
 					</div>
 				</div>
+
+				<div class="line"></div>
+				<h4>Perceived values</h4>
+				<span class="content">
+					<span class="contentNum"> 1 &mdash; </span> Gain differentiation through leveraging TFF's value of belonging to the community
+				</span>
+				<span class="content">
+					<span class="contentNum"> 2 &mdash; </span> Decrease overhead for the overwhelmed attendees
+				</span>
+				<span class="content">
+					<span class="contentNum"> 3 &mdash; </span> Provide exposure to the local businesses that have been shaping the Tribeca community, bringing character back to the neighbourhood
+				</span>
+
+				<img src="img/TFFvalues.jpg" class="businessesImg">
+
+				<div class="line"></div>
+				<h4>Reflection</h4>
+				<p class="content">
+					This being my first UX/UI project, I learned the importance of incorporating insights to inform our final solution. I experienced the constraints of working within a brand's guidelines and values. I also developed an interest in designing interfaces and their microinteractions. 
+				</p>
+
+				<p class="content">
+					If I were to take this further, I would be interested to improve on the UI and interactions between pages to further reflect who Tribeca Film Festival is and what they have to offer.
+				</p>
+
+				<a href="Medic.html" class="footer">
+					next project
+				</a>
+<!-- 
+
+				Given the region of where we and Tribeca Film Festival takes place, we conducted user interviews on people who have attended film festivals in general.
+
+				We began by conducting user interviews to pin point  -->
+
+
 			</div>
-
-			<div class="line"></div>
-			<h4>Perceived values</h4>
-			<span class="content">
-				<span class="contentNum"> 1 &mdash; </span> Gain differentiation through leveraging TFF's value of belonging to the community
-			</span>
-			<span class="content">
-				<span class="contentNum"> 2 &mdash; </span> Decrease overhead for the overwhelmed attendees
-			</span>
-			<span class="content">
-				<span class="contentNum"> 3 &mdash; </span> Provide exposure to the local businesses that have been shaping the Tribeca community, bringing character back to the neighbourhood
-			</span>
-
-			<img src="img/TFFvalues.jpg" class="businessesImg">
-
-			<div class="line"></div>
-			<h4>Form Development</h4>
-			<span class="content">
-				<span class="contentNum"> 1 &mdash; </span> We wanted to seamlessly bridge film goers from TFF's existing website to our mobile EXPLORE feature. Since film goers would already be familiar with using the icon filters to browse through films on their website, we thought it was intuitive for them to browse through businesses the same way as well. We used icons from their filters in conjunction with some of our own.
-			</span>
-
-			<img src="img/TFFfilters.png" class="businessesImg">
-
-			<span class="content">
-				<span class="contentNum"> 2 &mdash; </span> Once we decided on the flow of the interactions, I was 
-			</span>
-
-
-
-Given the region of where we and Tribeca Film Festival takes place, we conducted user interviews on people who have attended film festivals in general.
-
-We began by conducting user interviews to pin point 
-
-
 		</div>
-	</div>
+		
+		<script>
+			var prevScrollpos = window.pageYOffset;
+			window.onscroll = function() {
+				var currentScrollPos = window.pageYOffset;
+				if (prevScrollpos > currentScrollPos) {
+					document.getElementById("navbar").style.top = "0";
+				} else {
+					document.getElementById("navbar").style.top = "-9rem";
+				}
+				prevScrollpos = currentScrollPos;
+			}
+		</script>
 
+	</body>
 
-
-</body>
-</html>
+	</html>
