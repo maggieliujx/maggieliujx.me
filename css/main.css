@@ -22,7 +22,7 @@ html,body {
 }
 
 #navbar {
-	height: 9rem;
+	height: 5rem;
 	background-color: white;
 	color: black;
 	position: fixed;
@@ -30,6 +30,10 @@ html,body {
 	width: 100%;
 	display:block;
 	transition: top 0.3s;
+}
+
+.projectHeader {
+	margin-top: 1rem;
 }
 
 h1 { 
@@ -58,37 +62,8 @@ img {
 	padding: 20% 0;
 }
 
-/*.prev-line{
-	width: 35px;
-	height: 47px;
-	border-bottom: 1px solid black;
-	float: left;
-	top: 150%;
-}
-
-.next-line{
-	width: 35px;
-	height: 47px;
-	border-bottom: 1px solid black;
-	float: left;
-	top: 150%;
-}
-*/
-
 /* horizontal line */
 a.prev, a.next {
-	/*position: absolute;
-	top: 100%;
-	z-index: 999;
-	float: left;
-	width: auto;
-	height: auto;
-	font-weight: 600;
-	font-size: 10px;
-	opacity: 0.8;
-	cursor: pointer;
-	padding-top: 4%; 
-	padding-bottom: 4%;*/
 	width: 100%; /* line width */
 	border-bottom: 1px solid #000;
 	line-height: 0.1rem;
@@ -118,18 +93,6 @@ a.prev:hover, a.next:hover {
 a.prev {
 	text-align: right;
 }
-
-/*
-a.prev {
-	display: inline-block;
-	text-align: left;
-}
-
-a.next {
-	display: inline-block;
-	text-align: right;
-}
-*/
 
 a {
 	color: #4A4A4A;
@@ -257,7 +220,7 @@ li img {
 }
 
 .medic-bg {
-	background-image: url("../img/MedicBG.png");
+	background-image: url("../img/medicBGG.jpg");
 }
 
 .ins-bg {
@@ -275,11 +238,9 @@ h2 {
 	overflow: visible;
 	font-style: bold;
 	font-size: 6rem;
-	padding-left: 20rem;
 	letter-spacing: 0.8rem;
-	float: top;
+	float: middle;
 	text-align: left;
-	margin-bottom: 2rem;
 }
 
 h3 {
@@ -287,8 +248,11 @@ h3 {
 	font-style: bold;
 	font-size: 1.3rem;
 	padding-top: 4rem;
-	padding-left: 20rem;
 	text-align: left;
+}
+
+.suntitles {
+	width: 100%;
 }
 
 h4  {
@@ -302,29 +266,27 @@ h4  {
 h5 {
 	font-style: medium;
 	font-size: 1.1rem;
-	padding-left: 20rem;
 	padding-top: 4rem;
 	text-align: left;
 	width: 45rem;
 }
 
 .tffName {
-	margin-top: -25%;
+	margin-top: -30%;
 }
 
 .medicName {
-	margin-top: -17%;
+	margin-top: -21%;
 }
 
 .insName {
-	margin-top: -18%;
+	margin-top: -21%;
 }
 
 .projectIntro {
 	font-family: proza;
-	padding-left: 20rem;
 	text-align: left;
-	width: 67rem;
+	width: 45%;
 	display: block;
 	line-height: 2;
 }
@@ -332,7 +294,7 @@ h5 {
 .plist {
 	font-size: 0.8rem;
 	line-height: 2;
-	width: 35rem;
+	width: 110%;
 	display: block;
 }
 
@@ -342,20 +304,11 @@ h5 {
 	height: 300px;
 }
 
-video {
-	padding-left: 13rem;
-}
-
-.vid2 {
-	padding-left: 20rem;
-}
-
 .content {
 	font-family: proza;
 	font-size: 0.85rem;
-	padding-left: 20rem;
 	text-align: left;
-	width: 58rem;
+	width: 45%;
 	line-height: 2;
 	display: block;
 }
@@ -363,11 +316,10 @@ video {
 .businessQuote {
 	font-family: cormorantInfant;
 	font-size: 1.5rem;
-	padding-left: 20rem;
 	text-align: left;
 	padding-top: 3rem;
 	padding-bottom: 3.5rem;
-	width: 70rem;
+	width: 60%;
 	line-height: 1.5;
 	display: block;
 }
@@ -375,27 +327,24 @@ video {
 .insightsQuote {
 	font-family: cormorantInfant;
 	font-size: 1.2rem;
-	padding-left: 20rem;
 	text-align: left;
-	width: 69rem;
+	width: 60%;
 	line-height: 1;
 	display: block;
 }
 
 .businessesImg {
-	width: 90%;
+	width: 100%;
 	margin-top: 4.5rem;
 	position: relative;
-	left: 20%;
 	height: auto;
 }
 
 .personaImg {
-	width: 80%;
 	margin-top: 2rem;
 	position: relative;
-	left: 20%;
 	height: auto;
+	align-items: left;
 }
 
 .line {
@@ -404,22 +353,16 @@ video {
 	border-bottom: 1px solid black;
 	display: inline-block;
 	text-align: left;
-	margin-left: 20rem;
 }
 
 .clientIntro {
 	font-family: proza;
 	font-size: 0.83rem;
-	padding-left: 20rem;
 	text-align: left;
-	width: 60rem;
+	width: 45%;
 	line-height: 2;
 	display: block;
 	margin-top: 0rem;
-}
-
-.proposal-Container {
-	padding-left: 17rem;
 }
 
 .proposalImg {
@@ -466,8 +409,8 @@ mark {
 
 /* mockup bg squares */
 .mockups {
-	height: 50rem;
-	width: 50rem;
+	height: 50%;
+	width: 50%;
 	display: inline-block;
 	/*-moz-box-sizing: border-box;
 	box-sizing: border-box;*/
@@ -477,9 +420,39 @@ mark {
 
 .solutionContent {
 	display: inline-block;
+	padding-left: 10%;
 	padding-top: 15rem;
 	text-align: left;
-	padding-left: 3rem;
+}
+
+#wireframeContainer {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-top: 2rem;
+}
+
+.sketches {
+	width: 100%;
+	padding-bottom: 5%;
+}
+
+.wireframe {
+	width: 50%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.wireframeContent {
+	display: inline-block;
+	padding-top: 45%;
+	text-align: left;
+	padding-left: 10%;
+}
+
+.precedence {
+	width: 50%;
+	padding: 5% 0;
+	display: block;
 }
 
 .footer {
@@ -491,4 +464,5 @@ mark {
 	width: 100%;
 	padding: 10%;
 	text-align: center;
+	text-decoration: none;
 }
