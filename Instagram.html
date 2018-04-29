@@ -13,7 +13,26 @@
 
 <body>
 
-	<a href="index.html" id="navbar"><h1 class="projectHeader">mag<letter-spacing: 0.5rem;>gie</letter-spacing:> liu</h1></a>
+	<header>
+		<a href="index.html" class="logo">mag<letter-spacing: 0.1rem;>gie liu</letter-spacing:></a>
+		<!-- <h1 class="about">for fun</h1> -->
+
+		<div class="social-links">
+			<a href="https://www.linkedin.com/in/maggieliujx/"> 
+				<img src="img/linkedin-icon.png"> 
+			</a>
+			<a href="https://www.instagram.com/magmagee/">
+				<img src="img/ins-icon.png">
+			</a>
+		</div>
+
+	</header>
+
+	<div class="sidenav">
+		<a href="index.html#workContainer">work</a>
+		<a href="docs/MaggieLiuResume.pdf">resume</a>
+		<a href="mailto:maggieliujx@gmail.com">email</a>
+	</div>
 
 	<div class="fixed-bg ins-bg"></div>
 
@@ -148,24 +167,14 @@
 
 			</div>
 
-			<a href="TFF.html" class="nextProject">
+			<a href="Instagram.html" class="nextProject">
 				next project
 			</a>
 
 		</div>
+	</div>
 
-		<script>
-			var prevScrollpos = window.pageYOffset;
-			window.onscroll = function() {
-				var currentScrollPos = window.pageYOffset;
-				if (prevScrollpos > currentScrollPos) {
-					document.getElementById("navbar").style.top = "0";
-				} else {
-					document.getElementById("navbar").style.top = "-5rem";
-				}
-				prevScrollpos = currentScrollPos;
-			}
-		</script>
+	<div class="footer">made with donuts in Vancouver, BC.</div>
 
-	</body>
-	</html>
+</body>
+</html>
