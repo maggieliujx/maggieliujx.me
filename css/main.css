@@ -89,7 +89,7 @@ header {
 }
 
 .sidenav a:hover {
-	color: #f1f1f1;
+	color: black;
 }
 
 .projectHeader {
@@ -174,16 +174,23 @@ img {
 	height:100%;
 	position: absolute;
 	top:0;
-	left:0;
-	display: block;
+	/*	left:0;*/
+	display: inline-block;
 	color: white;
 	font-size: 40px;
 	text-align: center;
+	line-height: auto;
 	opacity: 0;
 	background-color: rgba(0, 0, 0, 0.7);
 	transition: .5s ease;
 	z-index: 6;
 	padding-top: 8%;
+}
+
+.overlaytextDicipline {
+	font-family: proza;
+	font-size: 15px;
+	color: #C3C3C3;
 }
 
 .projectContainer:hover .overlaytext {
