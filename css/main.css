@@ -28,12 +28,13 @@ html,body {
 }
 
 header {
-	position: relative;
+	position: fixed;
 	height: 90px;
 	width: 100%;
 	display: inline-block;
 	overflow: hidden;
 	padding: 40px 50px;
+	z-index: 20;
 }
 
 .logo {
@@ -41,7 +42,7 @@ header {
 	font-weight: bold;
 	letter-spacing: 0.2rem;
 	position: fixed;
-	z-index: 11;
+	z-index: 20;
 	text-decoration: none;
 	display: inline-block;
 }
@@ -77,8 +78,8 @@ header {
 	font-weight: normal;
 	font-size: 0.8rem;
 	letter-spacing: normal;
-	margin: 0;
-	padding-left: 50px;
+
+	padding: 90px 50px;
 }
 
 .sidenav a {
