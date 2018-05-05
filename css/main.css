@@ -150,6 +150,21 @@ img {
 	height: 100%;
 }
 
+.meContainer .hover-vid {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+
+.meContainer:hover .hover-vid {
+	display: inline;
+	width: 500px;
+	height: 282px;
+	/*background-image: url(".../img/underwater.mp4");*/
+}
+
 #workContainer {
 	padding: 30% 0;
 }
