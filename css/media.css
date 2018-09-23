@@ -1,0 +1,115 @@
+@media (max-width: 768px) {
+  .workContainer {
+    width: 100%;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .grid-col-8of12 {
+    width: 100%;
+  }
+  .projectIntro {
+    width: 100%;
+  }
+  .clientIntro {
+    width: 100%;
+  }
+  .grid-col-2of12 {
+    width: 33.33%;
+  }
+  .grid-col-3of12 {
+    width: 33.33%;
+  }
+  .content {
+    padding-left: 10%;
+    width: 100%;
+  }
+  .businessQuote {
+    width: 100%;
+  }
+  .insightsQuote {
+    padding-left: 10%;
+    width: 100%;
+  }
+  #solutionContainer {
+    margin-left: 10%;
+    width: 110%;
+  }
+  .grid-col-6of12 {
+    width: 100%;
+  }
+  nav {
+    width: 100%;
+    height: auto;
+    top: 3rem;
+  }
+  .wrapper {
+    flex-direction: column;
+  }
+  .logo {
+    left: 0;
+    background-color: #F9F9F9;
+  }
+  .main-content {
+    flex-basis: 100%;
+    margin: 0 0 5px 0;
+    order: 3;
+    width: 100%;
+  }
+  .sidebar-left {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #F9F9F9;
+  }
+  .sidebar-right {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 1.5rem;
+    height: auto;
+    /* background-color: #F9F9F9; */
+  }
+  .myTitle {
+    font-size: 0.9rem;
+    text-align: center;
+    right: 0;
+    padding-top: 0.5rem;
+  }
+  .meContainer {
+    width: 100%;
+    order: 4;
+  }
+  .projectContent {
+    margin: 0 5% 0 5%;
+    width: 90%;
+  }
+  p {
+    padding-left: 10%;
+  }
+  .mockupsContainer {
+    flex-direction: column;
+  }
+  .sketches {
+  }
+  .sketches img {
+      width: 100%;
+  }
+  .wireframe p {
+    width: 100%;
+  }
+  .precedence {
+    padding-left: 10%;
+    width: 100%;
+  }
+  figure {
+    padding-left: 10%;
+  }
+  .userflow p {
+    width: 100%;
+  }
+}

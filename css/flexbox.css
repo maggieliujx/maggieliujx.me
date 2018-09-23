@@ -7,15 +7,21 @@
   flex-wrap: wrap;
 }
 
-.flexcontainer {
-  display: flex;
+.flexcontainer{
   flex-direction: row;
   min-height: 100%;
   align-items: stretch;
 }
 
 .flexitem {
-  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.flexProject {
+  flex-direction: column;
+  align-content: center;
 }
 
 #menu {

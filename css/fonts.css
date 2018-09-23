@@ -1,0 +1,26 @@
+@font-face {
+	font-family: cormorantInfant;
+	font-weight: lighter;
+	font-style: normal;
+	src: url(fonts/CormorantInfant-Regular.otf);
+}
+
+@font-face {
+	font-family: cormorantInfant;
+	font-weight: lighter;
+	font-style: italic;
+	src: url(fonts/CormorantInfant-RegularItalic.otf);
+}
+@font-face {
+	font-family: proza;
+	font-weight: normal;
+	font-style: normal;
+	src: url(fonts/ProzaLibre-Regular.ttf);
+}
+
+@font-face {
+	font-family: proza;
+	font-weight: bold;
+	font-style: normal;
+	src: url(fonts/ProzaLibre-Medium.ttf);
+}
